@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title></title>
+	<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+	<!-- ionic/angularjs js -->
+	<script src="lib/ionic/js/ionic.bundle.js"></script>
+	<!-- cordova script (this will be a 404 during development) -->
+	<script src="cordova.js"></script>
+	<!-- your app's js -->
+	<script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+	<ion-pane>
+		<ion-nav-view class="content">
+			<ion-nav-bar align-title="center" class="bar-positive">
+				<ion-nav-back-button> </ion-nav-back-button>
+				<!--       <a href="#settings" class="ion-more settings-header"> </a> --></ion-nav-bar>
+			<div ng-controller="ctrl">
+				<a ng-click="goCats = !goCats" class="ion-more settings-header"> </a>
+				<div ng-show="goCats" class="top-header-settings">
+					<ul>
+						<li>
+							<!--<a href="#settings"> <span class="header-settings-menu-icon">  <img src="images/preferences.svg">     </span>-->
+							<a href="#acordion"> <span class="header-settings-menu-icon">  <img src="images/preferences.svg">     </span>
+							<div class="inline"> Preferences </div>
+							</a>
+						</li>
+						<li>
+							<a href="#settings"> <span class="header-settings-menu-icon">  <img src="images/settings.svg">     </span>
+								<div class="inline"> Settings </div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</ion-nav-view>
+		<ion-footer-bar class="no-padding">
+			<ion-tabs class="tabs-icon-top tabs-positive ">
+				<ion-tab href="#home" class="menu-home-btn">
+					<ion-nav-view name="home-tab"></ion-nav-view>
+				</ion-tab>
+				<ion-tab href="#feeds" class="menu-alerts-btn">
+					<ion-nav-view name="feeds-tab"></ion-nav-view>
+				</ion-tab>
+				<ion-tab href="#notifications" class="menu-notifications-btn">
+					<ion-nav-view name="notifications-tab"></ion-nav-view>
+				</ion-tab>
+				<ion-tab href="#calendar" class="menu-calendar-btn">
+					<ion-nav-view name="calendar-tab"></ion-nav-view>
+				</ion-tab>
+				<ion-tab href="#contact" class="menu-contact-btn">
+					<ion-nav-view name="contact-tab"></ion-nav-view>
+				</ion-tab>
+			</ion-tabs>
+		</ion-footer-bar>
+	</ion-pane>
+</body>
+
+</html>

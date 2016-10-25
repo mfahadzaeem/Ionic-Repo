@@ -1,0 +1,57 @@
+<div ng-controller="MyCtrl">
+    <ion-header-bar class="bar-positive">
+        <h1 class="title">Accordion List</h1> </ion-header-bar>
+    <ion-content>
+        <div class="select-campus">
+            <select class="dropdownbox-campus">
+                <option>Blue</option>
+                <option selected>Green</option>
+                <option>Red</option>
+            </select>
+        </div>
+        <ion-list>
+            <div>
+                <ion-item class="item-stable" ng-click="toggleGroup(group1)" ng-class="{active: isGroupShown(group1)}">
+                    <div class="campus-class-name"> Primary </div> <i class="icon  campus-select-accordion-icon" ng-class="isGroupShown(group1) ? 'ion-minus' : 'ion-plus'"></i> </ion-item>
+                <ion-item class="item-accordion" ng-show="isGroupShown(group1)">
+                    <div class="campus-class-checkbox">
+                        <ion-checkbox ng-model="isChecked">
+                            <div class="campus-class-checkbox-name"> Kindergarten </div>
+                        </ion-checkbox>
+                    </div>
+                </ion-item>
+                
+                 <ion-item class="item-stable" ng-click="toggleGroup(group2)" ng-class="{active: isGroupShown(group2)}">
+                    <div class="campus-class-name"> Primary </div> <i class="icon  campus-select-accordion-icon" ng-class="isGroupShown(group2) ? 'ion-minus' : 'ion-plus'"></i> </ion-item>
+                <ion-item class="item-accordion" ng-show="isGroupShown(group2)">
+                    <div class="campus-class-checkbox">
+                        <ion-checkbox ng-model="Checked">
+                            <div class="campus-class-checkbox-name"> Kindergarten </div>
+                        </ion-checkbox>
+                    </div>
+                    
+                    <div class="campus-class-checkbox">
+                        <ion-checkbox ng-model="Checked">
+                            <div class="campus-class-checkbox-name"> Class 1 </div>
+                        </ion-checkbox>
+                    </div>
+                    
+                    <div class="campus-class-checkbox">
+                        <ion-checkbox ng-model="Checked">
+                            <div class="campus-class-checkbox-name"> Class 2 </div>
+                        </ion-checkbox>
+                    </div>
+                    
+                    <div class="campus-class-checkbox">
+                        <ion-checkbox ng-model="Checked">
+                            <div class="campus-class-checkbox-name"> Class 3 </div>
+                        </ion-checkbox>
+                    </div>
+                </ion-item>
+                
+                
+                
+            </div>
+        </ion-list>
+    </ion-content>
+</div>

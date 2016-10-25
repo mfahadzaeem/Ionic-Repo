@@ -1,0 +1,411 @@
+/* Empty. Add your own CSS if you like */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700');
+.tabs-icon-top .icon {
+    font-size: 25px;
+}
+
+.feeds-content .item {
+    padding: 0px;
+}
+
+.feed-logo > img {
+    width: 36px;
+}
+
+.full-width-image {
+    width: 100%;
+}
+
+.feed-logo {
+    margin: 3px 0 -1px;
+}
+
+.feeds-content .item .row {
+    padding: 5px 12px;
+}
+
+.feed-logo-text {
+    color: #262626;
+    font-size: 15px;
+    line-height: 47px;
+}
+
+.feed-content-feed-heading {
+    color: #262626;
+    font-size: 15px;
+    margin: 12px 11px 3px;
+}
+
+.feed-content-feed-description {
+    font-size: 15px;
+    color: #262626;
+}
+
+.feed-description-more {
+    color: #999999;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.posted-time {
+    color: #999999;
+    font-size: 11px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+.menu-home-btn {
+    background-image: url("../images/home-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-home-btn-active {
+    background-image: url("../images/home.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-alerts-btn {
+    background-image: url("../images/alerts-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-alerts-btn-active {
+    background-image: url("../images/alerts.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-notifications-btn {
+    background-image: url("../images/notifications-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-calendar-btn {
+    background-image: url("../images/calendar-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-calendar-btn-active {
+    background-image: url("../images/calendar.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-contact-btn {
+    background-image: url("../images/contact-outline.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-contact-btn-active {
+    background-image: url("../images/contact.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.contact-heading {
+    color: #2e337e;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-sub-heading {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-sub-heading {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #939393;
+}
+
+.content-padding {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.settings-header {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    margin-right: 13px;
+    margin-top: 8px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.right-arrow-setting {
+    color: #2b3481;
+    font-size: 24px;
+    margin-left: 10px;
+    position: absolute;
+    right: -5px;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.toggle-btn-container .item-toggle {
+    border: 0 none;
+    height: 50px;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    z-index: 3;
+}
+
+.version {
+    color: #666;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.settings-sub-heading {
+    color: #b0b0b0;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.social-icon-setting {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.vis {
+    height: 100px;
+    display: none;
+}
+
+.top-header-settings {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bababa;
+    border-radius: 4px;
+    margin-top: 45px;
+    border-top: 0px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.top-header-settings ul li a {
+    display: block;
+    padding: 2px 0;
+    text-decoration: none;
+}
+
+.top-header-settings ul li {
+    border-bottom: 1px solid #bababa;
+    display: block;
+    padding: 4px 10px;
+    width: 160px;
+}
+
+.header-settings-menu-icon {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 0 2px;
+    position: relative;
+    top: 3px;
+}
+
+.top-header-settings::after {
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    clear: both;
+    content: "";
+    height: 0;
+    left: 80%;
+    position: absolute;
+    top: -14%;
+    width: 0;
+}
+
+.dropdownbox-campus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #badaf1;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    background-image: url("../images/white-dropdown.png");
+    background-position: 96% 20px;
+    background-repeat: no-repeat;
+}
+
+.select-campus {
+    background-color: #2e337e;
+    padding: 5px 20px 20px;
+}
+
+.dropdownbox-campus option {
+    background: #a1c8e5 none repeat scroll 0 0;
+    color: #2e337e;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 0px;
+}
+
+.dropdownbox-campus::after {
+    background-image: url(../images/white-dropdown.png);
+    content: "";
+    display: block;
+}
+
+.dropdownbox-campus option:hover {
+    background: #8ab9da none repeat scroll 0 0 !important;
+    color: #2e337e;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 0px;
+}
+
+.campus-class-name {display: inline-block;}
+.right {float: right;}
+.left {float: left;}
+.campus-select-accordion-icon {background: #2e337e none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 13px;
+    width: 26px;}
+
+
+.campus-class-name {color: #2e337e;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+   }
+
+.campus-class-checkbox label {border: 0px solid;}
+.campus-class-checkbox label .checkbox {padding-left: 0px;}
+.campus-class-checkbox {}
+.campus-class-checkbox-name {}
+
+
+
+
+.enter-phone-number {
+    display: table;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto 25px;
+    width: 80%;
+}
+
+
+.login-row form {
+    display: table;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.phone-login {
+    background: #dbebf6 none repeat scroll 0 0;
+    border: 2px solid #2e337e;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    width: 72%;
+}
+
+
+.fake-login {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.login-btn {
+    background: #2e337e url("../images/right-arrow-white.png") no-repeat scroll calc(90% - 0%) center;
+    border: medium none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px 11px;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+.help-text {
+   font-size: 15px;
+    margin: 20px auto 0;
+    position: relative;
+    width: 200px;
+}
+
+body{margin: 0;padding: 0;}
+
+.home-bg {
+    background-image: url("../images/bg-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.login-row {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    position: relative;
+    text-align: center;
+}
+
+
+.landing-logo {
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
